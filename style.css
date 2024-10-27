@@ -1,0 +1,97 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #f3eae3;
+    font-family: serif;
+    font-family: Montserrat;
+}
+
+
+
+.wrapper {
+    border-radius: 20px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    
+}
+.main-image {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text-block {
+    padding: 40px;
+}
+.caption-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main-title {
+    font-family: Fraunces;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.subtitle {
+    font-size: 25px;
+    opacity: 70%;
+    margin-bottom: 30px;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.main-price {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 60px;
+    color: #307860;
+
+}
+.price-before {
+    font-size: 23px;
+    text-decoration: line-through;
+    opacity: 70%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 35px;
+    text-decoration: none;
+    background-color: #307860;
+    color: #fff;
+    border-radius: 15px;
+
+}
+
+.button:hover {
+    background-color: #285546;
+}
+
+.icon {
+    width: 30px;
+}
+.button__text {
+    font-size: 25px;
+    font-weight: 600;
+}
